@@ -2,9 +2,9 @@
 
 namespace GamerFac3\LaravelProxmoxSdk;
 
+use GamerFac3\LaravelProxmoxSdk\Commands\LaravelProxmoxSdkCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use GamerFac3\LaravelProxmoxSdk\Commands\LaravelProxmoxSdkCommand;
 
 class LaravelProxmoxSdkServiceProvider extends PackageServiceProvider
 {

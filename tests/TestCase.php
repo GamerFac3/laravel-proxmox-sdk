@@ -2,9 +2,9 @@
 
 namespace GamerFac3\LaravelProxmoxSdk\Tests;
 
+use GamerFac3\LaravelProxmoxSdk\LaravelProxmoxSdkServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use GamerFac3\LaravelProxmoxSdk\LaravelProxmoxSdkServiceProvider;
 
 class TestCase extends Orchestra
 {
