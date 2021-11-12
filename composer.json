@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "gamerfac3/laravel-proxmox-sdk",
+    "description": "SDK for using Proxmox API in Laravel",
     "keywords": [
-        ":vendor_name",
+        "GamerFac3",
         "laravel",
-        ":package_slug"
+        "laravel-proxmox-sdk"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/gamerfac3/laravel-proxmox-sdk",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Marvin",
+            "email": "gamerfac3@gmail.com",
             "role": "Developer"
         }
     ],
@@ -34,13 +34,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "GamerFac3\\LaravelProxmoxSdk\\": "src",
+            "GamerFac3\\LaravelProxmoxSdk\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "GamerFac3\\LaravelProxmoxSdk\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -54,10 +54,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "GamerFac3\\LaravelProxmoxSdk\\LaravelProxmoxSdkServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\SkeletonFacade"
+                "LaravelProxmoxSdk": "GamerFac3\\LaravelProxmoxSdk\\LaravelProxmoxSdkFacade"
             }
         }
     },

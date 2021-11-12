@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace GamerFac3\LaravelProxmoxSdk\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelProxmoxSdkCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-proxmox-sdk';
 
     public $description = 'My command';
 

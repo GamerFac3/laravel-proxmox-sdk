@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace GamerFac3\LaravelProxmoxSdk;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
+use GamerFac3\LaravelProxmoxSdk\Commands\LaravelProxmoxSdkCommand;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class LaravelProxmoxSdkServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +16,10 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
+            ->name('laravel-proxmox-sdk')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_skeleton_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasMigration('create_laravel-proxmox-sdk_table')
+            ->hasCommand(LaravelProxmoxSdkCommand::class);
     }
 }
